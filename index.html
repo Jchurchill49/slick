@@ -1,7 +1,7 @@
 <html>
     <head>
     <title>My Now Amazing Webpage</title>
-    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     </head>
     <body>
 
@@ -13,12 +13,16 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){
             $('.your-class').slick({
-                setting-name: setting-value
+                autoplay: true; 
+                autoplaySpeed:3000;
+                arrows: true;
+                draggable: true;
+                infinite: true;
             });
         });
     </script>
